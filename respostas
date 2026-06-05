@@ -1,0 +1,3 @@
+
+
+> Encontrei duas palavras diferentes que geram o mesmo valor de hash: **"roma"** e **"amor"**. Isso acontece porque elas possuem as mesmas letras, apenas em ordem diferente. Como a função `calcula_hash` soma os valores das letras, a ordem não altera o resultado final, fazendo com que as duas palavras tenham o mesmo hash. Isso é um exemplo de **colisão de hash**.
